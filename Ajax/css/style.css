@@ -1,0 +1,40 @@
+body { background: linear-gradient(to left, rgb(239, 68, 255), rgb(91, 77, 214)); }
+
+form {text-align:center; }
+
+p { font-family: Impact, Charcoal, sans-serif; }
+
+h1 { 
+  color: darkblue;
+  
+  text-align:center;
+}
+
+.information { border: black 0.5px solid; }
+
+.button {
+  display: inline-block;
+  padding: 10px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  justify-content: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(76, 175, 145);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(12, 5, 83);
+}
+
+.button:hover { background-color: #3e8e41; }
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.center {
+  text-align: center;
+}
