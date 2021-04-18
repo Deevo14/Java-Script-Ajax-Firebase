@@ -1,0 +1,16 @@
+
+html {
+  position: relative;
+  background-image: url("../fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-footer {
+  background-color: #4a148c;
+}
+
+.input-field label {
+  color: black;
+}
+

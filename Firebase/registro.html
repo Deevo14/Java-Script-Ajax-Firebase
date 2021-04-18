@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Practica 2</title>
+    <link rel="stylesheet" type="text/css" href="/css/materialize.css" media="screen" />
+    <link rel="stylesheet" href="../css/stylesource.css" media="screen,projection">
+</head>
+
+<body class="container">
+  <nav class="purple darken-4" class="nav-extended">
+    <div class="nav-wrapper" class ="z-depth-5">
+      <a href="#" class="brand-logo center"><img style="height:64px;" id="logo_nav" src="/Imagen.png" alt="ull_logo" title="ull-logo" ></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="">Registrase</a></li>
+        <li><a href="">Iniciar Sesión</a></li>
+      </ul>
+    </div>
+</nav>
+
+
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="first_name" type="text" class="validate">
+        <label for="first_name">First Name</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="last_name" type="text" class="validate">
+        <label for="last_name">Last Name</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="password" type="password" class="validate">
+        <label for="password">Password</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="email" type="email" class="validate">
+        <label for="email">Email</label>
+      </div>
+    </div>
+    <div class="row center">
+      <a href="#" class="btn-large purple darken-4 ">Registrase</a>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+<footer class="page-footer fixed-bottom">
+    <div class="col s12">
+    <div class="container">
+      <div class="row" >
+        <div class="col l6 s12" >
+          <h4 class="white-text">Contenido</h5>
+            <ul>
+              <li><a class="white-text" title href=https://www.ull.es>ULL</a></li>
+              <li><a class="white-text" href="https://campusvirtual.ull.es/">Campus</a></li>
+              <li><a class="white-text" href="#!">Faq</a></li>
+
+            </ul>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Other Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://materializecss.com/">Materialize</a></li>
+          </ul>
+          <h6 class = "white-text"> Proyecto desarollado por: </h6>
+          <p>Enrique Hernández Cabrera</p>
+          <p>José David Mur Álvarez</p>
+          <p>Airam Herrera Plasencia</p>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+ <!-- Scripts -->
+ <script src="js/materialize.js"></script>
+    
+ <!-- FIREBASE -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDf0V2nvep7B7mxtFZKZPK4lLn0dLtl2Jc",
+    authDomain: "fir-uya-4aa96.firebaseapp.com",
+    projectId: "fir-uya-4aa96", 
+    storageBucket: "fir-uya-4aa96.appspot.com",
+    messagingSenderId: "303604878390",
+    appId: "1:303604878390:web:6faffbebcb7bc94d4e1c97",
+    measurementId: "G-X31CZ6PQC8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+</body>
+</html>
